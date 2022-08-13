@@ -1,4 +1,10 @@
+.App-header {
+  text-align: center;
+  color: brown;
+  margin: 60px 0;
+}
+
 .App-footer {
   text-align: center;
-  margin: 30px 0;
+  margin: 30px;
 }
