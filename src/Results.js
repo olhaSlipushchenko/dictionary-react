@@ -3,7 +3,7 @@ import Meaning from "./Meaning";
 import Phonetic from "./Phonetic";
 import "./Results.css";
 
-export default function Results(props) {
+const Results = (props) => {
   if (props.results) {
      return (
        <div className="Results">
@@ -28,6 +28,6 @@ export default function Results(props) {
      );
   } else {
     return null;
-  }
- 
-}
+  };
+};
+export default Results;

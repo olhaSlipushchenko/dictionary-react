@@ -1,6 +1,4 @@
-body {
-   background: #A99A99 ;
-}
+
 
 a {
   color: #579B88;
@@ -9,16 +7,18 @@ a {
 a:hover {
   color: #3f5e55;
 }
+.App {
+  margin: 0 auto;
+}
 
 .App-header {
   text-align: center;
-  color: #EEEEEE;
-  margin: 60px 0;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #13553e;
+  margin: 0 auto;
   font-size: 26px;
+  font-style: bold;
 }
 
 .App-footer {
   text-align: center;
-  margin: 30px;
 }
